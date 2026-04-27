@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Hola, soy Sebastián Lagos</h1>
+
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="contactos.html">Contactos</a>
+        <a href="mascotas.html">Mascotas</a>
+    </nav>
+</header>
+
+<section id="sobre-mi">
+    <h2>Sobre mí</h2>
+
+    <p id="texto">
+        Hola, soy coder de RIWI y estoy aprendiendo programación.
+    </p>
+
+    <!-- boton 1 -->
+    <button onclick="cambiarTexto()">Cambiar texto</button>
+
+    <!-- boton 2 -->
+    <button onclick="mostrarOcultar()">Mostrar / Ocultar</button>
+
+    <!-- contenido oculto -->
+    <p id="extra" style="display: none;">
+        Me gusta el desarrollo web y crear proyectos increíbles.
+    </p>
+</section>
+
+<section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>
+        Hola, soy coder de RIWI y actualmente estoy aprendiendo programación, HTML, CSS y Python.
+        Me apasiona la tecnología y el desarrollo web, y este portafolio es una muestra de algunos
+        de los proyectos que he realizado durante mi proceso de aprendizaje.
+    </p>
+</section>
+
+<section id="proyectos">
+    <h2>Proyectos</h2>
+
+    <div class="proyectos">
+
+        <a href="proyecto1.html" class="card">
+            <img src="img/Inventario.png" alt="Inventario">
+            <h3>Sistema de inventario</h3>
+            <p>Aplicación en Python para gestionar productos, entradas y salidas.</p>
+        </a>
+
+        <a href="proyecto2.html" class="card">
+            <img src="img/Netflix.png" alt="Netflix">
+            <h3>Página tipo Netflix</h3>
+            <p>Interfaz web inspirada en Netflix usando HTML y CSS.</p>
+        </a>
+
+        <a href="proyecto3.html" class="card">
+            <img src="img/Robot.png" alt="Robot Hera">
+            <h3>Robot Hera</h3>
+            <p>Proyecto enfocado en automatización y entrega de medicamentos.</p>
+        </a>
+
+    </div>
+</section>
+
+</body>
+</html>
